@@ -45,12 +45,13 @@ var articles = {
       var heading = data.heading;
       var content = data.content;
       
-  var htmltemplate = `
+  var htmltemplate = `  
+        
   <html>
-    <head>
-         <title>
-              ${title}
-         </title>
+  <head>
+        <title>
+             ${title}
+        </title>
         <meta name="viewport" content="=device-width, initial-scale=1"/>
          <link href="/ui/style.css" rel="stylesheet" />
     </head>
@@ -67,7 +68,7 @@ var articles = {
          ${date}
      </div>
      <div>
-         ${content}
+       ${content}
              </div>
      </div>
  </body>   
